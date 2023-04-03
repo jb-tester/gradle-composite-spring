@@ -1,9 +1,9 @@
 rootProject.name = 'gradle-composite-spring'
 include 'subgroup:sub-mod'
-findProject(':subgroup:sub-mod')?.name = 'sub-mod'
+//findProject(':subgroup:sub-mod')?.name = 'sub-mod'
 include 'subgroup:spring-mod'
-findProject(':subgroup:spring-mod')?.name = 'spring-mod'
+//findProject(':subgroup:spring-mod')?.name = 'spring-mod'
 include 'subgroup:spring-mod-nodep'
-findProject(':subgroup:spring-mod-nodep')?.name = 'spring-mod-nodep'
+//findProject(':subgroup:spring-mod-nodep')?.name = 'spring-mod-nodep'
 include 'common-mod'
 
